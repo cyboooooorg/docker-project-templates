@@ -4,5 +4,6 @@
         "ci-cd",
         "config",
         "docs",
+        "dev"
     ]
 }
