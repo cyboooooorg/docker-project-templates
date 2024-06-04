@@ -33,22 +33,20 @@ To send us a pull request, please:
 
 We follow the [Conventional Commits](https://www.conventionalcommits.org/) specification. This leads to more readable messages that are easy to follow when looking through the project history. If you're not familiar with the Conventional Commits specification, the following is an example of a commit message that uses the convention:
 
-````text
-
 A commit message should be structured as follows:
 
 ```text
-[optional scope]:
+type[optional scope]: quick summary
 
 [optional body]
 
 [optional footer(s)]
-````
+```
 
 Here's an example:
 
 ```text
-feat(user): add ability to delete account
+feat(user)!: add ability to delete account
 
 This change allows the user to delete their account. Once the account is deleted, the user will be redirected to the homepage.
 
@@ -64,7 +62,7 @@ The commit contains the following structural elements:
 
 If you are not familiar with the Conventional Commits specification, you can also install the [**Conventional Commits**](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) extension for Visual Studio Code. This extension provides a button in the Source Control view to commit staged changes following the Conventional Commits specification.
 
-We also use the [cocogitto](https://github.com/cocogitto/cocogitto) tool for automatic version management and package publishing. It uses the commit messages to determine the type of changes in the codebase. Following formalized conventions for commit messages, semantic-release automatically determines the next semantic version number, generates a changelog and publishes the release to GitHub.
+We also use the [semantic-release](https://github.com/semantic-release/semantic-release) tool for automatic version management and package publishing. It uses the commit messages to determine the type of changes in the codebase. Following formalized conventions for commit messages, semantic-release automatically determines the next semantic version number, generates a changelog and publishes the release to GitHub.
 
 ## Thank You
 

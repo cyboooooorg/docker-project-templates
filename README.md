@@ -56,4 +56,4 @@ For more information on how to use the templates, please refer to the `README.md
 
 ## Contributing
 
-If you want to contribute to this project, you can create a new template or improve an existing one by creating a pull request. Please refer to the [CONTRIBUTING](./.github/CONTRIBUTING.md) file for more information on how to contribute.
+If you want to contribute to this project, you can create a new template or improve an existing one by creating a pull request. Please refer to the [CONTRIBUTING](./CONTRIBUTING.md) file for more information on how to contribute.
