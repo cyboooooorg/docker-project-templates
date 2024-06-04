@@ -1,0 +1,6 @@
+blank_issues_enabled: true
+
+contact_links:
+  - name: Have a question? 🤔
+    url: https://github.com/cyboooooorg/docker-project-templates/discussions
+    about: Have question about this repo you think I can answer? Try a discussion thread!
