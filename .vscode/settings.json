@@ -1,4 +1,5 @@
 {
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
     "conventionalCommits.scopes": [
         "community",
         "ci-cd",
